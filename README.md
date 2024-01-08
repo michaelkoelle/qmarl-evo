@@ -1,5 +1,5 @@
 
-# Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization
+# [Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://arxiv.org/abs/2311.05546)
 
 ## Abstract
 
