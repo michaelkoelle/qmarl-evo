@@ -14,20 +14,20 @@ pip install -r requirements.txt
 
 The `src/main.py` script evaluates the proposed Quantum Reinforcement Learning models. It requires the following arguments:
 
-* `-s` or `--seed`: Seed value (integer).
-* `-l` or `--layer`: Layer value (integer).
-* `-e` or `--experiment`: Experiment type (string).
+- `-s` or `--seed`: Seed value (integer).
+- `-l` or `--layer`: Layer count (integer).
+- `-e` or `--experiment`: Experiment type (string).
 
 To run the script:
 
 ```
-python src/main.py --seed [SEED_VALUE] --layer [LAYER_VALUE] --experiment [EXPERIMENT_TYPE]
+python src/main.py --seed [SEED_VALUE] --layer [LAYER_COUNT] --experiment [EXPERIMENT_TYPE]
 ```
 
-Replace `[SEED_VALUE]`, `[LAYER_VALUE]`, and `[EXPERIMENT_TYPE]` with your chosen values.
+Replace `[SEED_VALUE]`, `[LAYER_COUNT]`, and `[EXPERIMENT_TYPE]` with your chosen values.
 
 Experiment types:
 
-* `muta`: For mutation experiments.
-* `recomb_random`: For random recombination experiments.
-* `recomb_layerwise`: For layer-wise recombination experiments.
+- `muta`: For mutation experiments.
+- `recomb_random`: For random recombination experiments.
+- `recomb_layerwise`: For layer-wise recombination experiments.
