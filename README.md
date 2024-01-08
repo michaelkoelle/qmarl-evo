@@ -1,9 +1,8 @@
-
-# [Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://arxiv.org/abs/2311.05546)
-
-## Abstract
+# Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization
 
 Multi-Agent Reinforcement Learning is pivotal in the era of autonomous driving and smart industrial applications. This project takes a novel approach by integrating quantum mechanics into Reinforcement Learning, significantly reducing the model's trainable parameters. Traditional gradient-based methods in Multi-Agent Quantum Reinforcement Learning face challenges like barren plateaus, limiting their effectiveness compared to classical approaches. Our work builds upon an existing gradient-free Quantum Reinforcement Learning method and introduces three variants using Variational Quantum Circuits for Multi-Agent Reinforcement Learning, employing evolutionary optimization. We test these variants in the Coin Game environment, comparing them with classical models. Our findings indicate that Variational Quantum Circuit methods have a distinct advantage over comparable neural networks in terms of trainable parameters, achieving similar results with 97.88% fewer parameters.
+
+[Link to arXiv](https://arxiv.org/abs/2311.05546)
 
 ## Install dependencies
 
